@@ -1,0 +1,147 @@
+#content,
+.formWrapper {
+  width: 768px;
+  min-height: 100px;
+  margin: 0 auto;
+  background-color: azure;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(254, 149, 12);
+}
+body {
+  background: rgb(43, 102, 252);
+}
+
+.todo {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.empty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
+.li {
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 82%;
+  height: 35px;
+  margin: 10px 10%;
+  padding: 3px 0px;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+/* .li:active{
+  text-decoration: line-through;
+  background: rgb(236, 248, 3);
+} */
+h1{
+  color: rgb(65, 63, 71);
+  width: 100%;
+  text-align: center;
+}
+h2 {
+  margin: 5px 0;
+}
+
+.formWrapper {
+  margin-top: 20px;
+  background-color: rgb(244, 235, 235);
+}
+
+#form {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+}
+#btn {
+  width: 50px;
+  height: 50px;
+  background: rgb(78, 130, 226);
+  margin: 0;
+  border: none;
+  color: antiquewhite;
+  font-size: 30px;
+  float: right;
+}
+
+#input {
+  border: 2px solid rgb(253, 190, 19);
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  outline: none;
+  color: chocolate;
+  width: 50%;
+  padding: 5px 0;
+  margin: 0px 1%;
+}
+
+
+#form>div{
+  text-align: center;
+  width: 100%;
+}
+#result {
+  list-style: none;
+  margin: 0 0 50px;
+  padding: 0;
+  width: 70%;
+}
+#result ul{
+  width: 70%;
+}
+.checkbox {
+  position: absolute;
+  z-index: 2;
+  top: 8px
+}
+.inp {
+  width: 99%;
+  height: 30px;
+  display: inline;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 25px;
+  outline: none;
+  font: italic bold 18px/20px Arial, sans-serif;
+  border: 2px solid #fff;
+}
+.inp input[type="text"]:disabled {
+  background: rgb(244, 235, 235);
+}
+
+.btndel, .btnred {
+  background: rgb(89, 113, 248);
+  border: none;
+  color: #fff;
+  height: 30px;
+  margin-left: 1%;
+  width: 30px;
+  position: absolute;
+  right: 0px;
+}
+.btnred {
+  right: 35px;
+}
+#submit {
+  float: right;
+  margin-right: 21%;
+  height: 30px;
+  background: #4e82e2;
+  border: 1px solid #fe950c;
+}
